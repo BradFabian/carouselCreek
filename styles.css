@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: inheret;
+  font-size: 1rem;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.carousel {
+  max-width: 600px;
+  position: relative;
+}
+.carousel-item {
+  display: none;
+}
+.carousel-item img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+.carousel-item-visible {
+  display: block;
+}
+
+.carousel-actions {
+  z-index: 99;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-actions button {
+  border-radius: 5px;
+  background-color: rgba(242, 229, 229, 0.796);
+
+  border: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 20px;
+  height: 30px;
+}
