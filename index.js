@@ -5,6 +5,11 @@ const nextSlide = document.querySelector('.carousel-button-next');
 const prevSlide = document.querySelector('.carousel-button-prev');
 
 const moveToNextSlide = () => {
+    if(slidePostition === totalSlides - 1){
+        slidePostition = slides[0];
+    } else {
+        
+    }
 console.log('Moving to Next Slide!')
 }
 
