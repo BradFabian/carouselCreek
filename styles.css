@@ -21,8 +21,17 @@ html {
   max-width: 600px;
   position: relative;
 }
+
+.carousel-item-content {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+}
 .carousel-item {
   display: none;
+  position: relative;
 }
 .carousel-item img {
   max-width: 600px;
@@ -31,6 +40,7 @@ html {
 }
 .carousel-item-visible {
   display: block;
+  animation: fadeVisibility 0.5s;
 }
 
 .carousel-actions {
@@ -59,4 +69,13 @@ html {
 
 .carousel-item-hidden {
   display: none;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
