@@ -56,3 +56,7 @@ html {
   width: 20px;
   height: 30px;
 }
+
+.carousel-item-hidden {
+  display: none;
+}
