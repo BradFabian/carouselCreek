@@ -159,3 +159,38 @@ a {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel-item-content__text {
+    font-size: 1rem;
+    line-height: 1.2px;
+    margin: 1.6em;
+  }
+
+  .shopNow {
+    font-size: 0.5rem;
+  }
+  .carousel-item-content {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel-item-content {
+    top: 40%;
+  }
+  .carousel-item-content__text {
+    font-size: 0.9rem;
+    line-height: 1.2px;
+    margin: 1.2em;
+  }
+
+  .looks,
+  .under {
+    margin: 2px;
+  }
+
+  .shopNow {
+    font-size: 0.5rem;
+  }
+}
