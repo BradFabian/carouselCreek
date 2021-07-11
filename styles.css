@@ -109,6 +109,12 @@ a {
   line-height: 1.2px;
   margin: 1em;
 }
+
+.money_sign {
+  position: relative;
+  font-size: 60%;
+  top: -0.5em;
+}
 .carousel-item {
   display: none;
   position: relative;
