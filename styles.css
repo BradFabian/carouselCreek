@@ -67,6 +67,9 @@ a {
 .money_sign {
   font-weight: bold;
   font-size: inherit;
+  position: relative;
+  font-size: 60%;
+  top: -0.5em;
 }
 
 .under {
@@ -110,11 +113,6 @@ a {
   margin: 1em;
 }
 
-.money_sign {
-  position: relative;
-  font-size: 60%;
-  top: -0.5em;
-}
 .carousel-item {
   display: none;
   position: relative;
